@@ -4,7 +4,7 @@
 For our project, we will be collecting our own data, based on the Kaggle dataset found [here](https://www.kaggle.com/alyeasin/predict-pizza-price?select=Pizza-Price.csv). We will be investigating pizza prices in Newark, Elizabeth, and Union, New Jersey, and predicting the price of pizza given an input of desired toppings and size.  This project is interesting because of it's relevance to the NJIT student body, as most students on campus consider cost when ordering food.
 
 ## What reading will you examine to provide context and background?
-fluff
+We will be using [Predicting House Price Using Regression Algorithm for Machine Learning](https://yalantis.com/blog/predictive-algorithm-for-house-price/) and [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) as reference to see how machine learning and regression can be used to predict prices. [FOOD PREFERENCES OF COLLEGE STUDENTS AND NUTRITIONAL IMPLICATIONS](https://ift.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2621.1970.tb00950.x) will be used to compare how the price of food in general can have an effect on the health and nutrition of students.
 
 ## What data will you use? If you are collecting new data, how will you do it?
 
@@ -13,5 +13,5 @@ In order to collect our own data, we will use tools such as Yelp and Google Maps
 ## What algorithm and how to implement it
 fluff
 
-## How will we evaluate our results
+## How will we evaluate our results?
 fluff
