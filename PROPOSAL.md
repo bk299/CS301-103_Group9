@@ -15,5 +15,4 @@ In order to collect our own data, we will use tools such as Yelp and Google Maps
 As previously stated, we will be using linear regression. There are a multitude of example regression problems, and we will be using those as reference. To fine-tune our model, we will only be feeding data regarding cheese, pepperoni, and specialty pizzas.
 
 ## How will we evaluate our results?
-To evaluate our resulst we will be checking the accuracy of our model given the data we feed it. To do so, we will find the $r^2$ difference between the actual and predicted value.\
-$r^2_{actual} - r^2_{predicted}$
+To evaluate our results, we will be checking the accuracy of our model given the data we feed it. To do so, we will find the R-squared difference between the actual pizza price compared to the predicted pizza price based on what we are searching for. If unavailable, we will compare to the most similar pizza given the features we selected.
