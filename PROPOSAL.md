@@ -7,7 +7,7 @@ What we plan to do is use Machine Learning to try to pinpoint the country which 
 
 ## What reading will you examine to provide context and background?
 
-One reading we will be using is [Google's ML Practicum for Image Classification]https://developers.google.com/machine-learning/practica/image-classification. This reading will give us a better background in image classification. Another link that may be useful is [Kaggle's Intro ti Machine Learning]https://www.kaggle.com/learn/intro-to-machine-learning. This will be useful to us in order to get a solid introduction to machine learning.
+One reading we will be using is [Google's ML Practicum for Image Classification] https://developers.google.com/machine-learning/practica/image-classification. This reading will give us a better background in image classification. Another link that may be useful is [Kaggle's Intro ti Machine Learning] https://www.kaggle.com/learn/intro-to-machine-learning. This will be useful to us in order to get a solid introduction to machine learning.
 
 ## What data will you use? If you are collecting new data, how will you do it?
 
