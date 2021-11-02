@@ -2,17 +2,21 @@
 
 ## What is the problem that you will be investigating? Why is it interesting?
 
-For our project, we will be collecting our own data, based on the Kaggle dataset found [here](https://www.kaggle.com/alyeasin/predict-pizza-price?select=Pizza-Price.csv). We will be investigating pizza prices in Newark, Elizabeth, and Union, New Jersey and predicting the price of pizza given an input of desired toppings and size.  This project is interesting because of its relevance to the NJIT student body, as most students on campus consider cost when ordering food.
+GeoGuessr is a web-based geographic discovery game. In this game, you are put somewhere in the world with Google Maps coverage, usually using Google Street View, and you have to figure out where in the world you are. In normal modes, the player can move around in the Google Street View and look for clues to help them figure out where they are, including architecture, language, or distinct geographical features of an area. Some people have gotten really good at the game and can pinpoint nearly exactly where they are in the world based on a static image with no moving, panning, or zooming (commonly called NMPZ).
+What we plan to do is use Machine Learning to try to pinpoint the country which we are in just by feeding our algorithm a picture of wherever the game drops us in the Google Street View. This is interesting because, for the average player, it may be almost impossible to figure out which country you are in just by looking at a single picture. And our goal with this project is to end up with a product that gets trained well into guessing the correct country that the image was actually taken in.
 
 ## What reading will you examine to provide context and background?
-We will be using [Predicting House Price Using Regression Algorithm for Machine Learning](https://yalantis.com/blog/predictive-algorithm-for-house-price/) and [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) as references to see how machine learning and regression can be used to predict prices. [FOOD PREFERENCES OF COLLEGE STUDENTS AND NUTRITIONAL IMPLICATIONS](https://ift.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2621.1970.tb00950.x) will be used to compare how the price of food in general can have an effect on the health and nutrition of students.
+
+One reading we will be using is [Google's ML Practicum for Image Classification]https://developers.google.com/machine-learning/practica/image-classification. This reading will give us a better background in image classification. Another link that may be useful is [Kaggle's Intro ti Machine Learning]https://www.kaggle.com/learn/intro-to-machine-learning. This will be useful to us in order to get a solid introduction to machine learning.
 
 ## What data will you use? If you are collecting new data, how will you do it?
 
-In order to collect our own data, we will use tools such as Yelp and Google Maps to find information on pizza restaurants in the locations mentioned above. We will use the restaurant website to look up prices or call the restaurant ourselves. We will investigate the cost  of one small cheese pizza, one small pepperoni pizza, and one small "specialty" pizza. A specialty pizza is a pizza with four or more toppings and is associated with the particular restaurant. We will also record the diameter of the pizza, which we will use to help find which pizza is the most cost-efficient. We will repeat this for the other locations as well. 
+The data we will use is going to be sampled from GeoGuessr. We will feed our algorithm with several pictures from each country in the game, and those will all be from spots where Google Street View is available.
 
 ## What algorithm and how to implement it
-As previously stated, we will be using linear regression. There are a multitude of example regression problems, and we will be using those as reference. To fine-tune our model, we will only be feeding data regarding cheese, pepperoni, and specialty pizzas.
+
+We are going to be using some sort of image classification algorithm for our project. While we are not certain yet, we may use a convolutional neural network (CNN) for this project, as that is what seems to be a popular way to implement image classification. A CNN takes an image's raw pixel data as input and "learns" how to extract features based on them, so that seems like a good tool to use for our project.
 
 ## How will we evaluate our results?
-To evaluate our results, we will be checking the accuracy of our model given the data we feed it. To do so, we will find the R-squared difference between the actual pizza price compared to the predicted pizza price based on what we are searching for. If unavailable, we will compare to the most similar pizza given the features we selected.
+
+Luckily, there will always be a ground truth for our project: the actual location we are placed in GeoGuessr. We will evaluate our results by playing GeoGuessr and seeing how accurate our finished product is in guessing where we are in the world, perhaps based on the difference between the predicted location compared to the actual location.
