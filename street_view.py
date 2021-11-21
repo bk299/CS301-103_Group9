@@ -1,7 +1,9 @@
+from os import path
+import os
 import google_streetview.api
 import random
 
-
+API_KEY = ''
 
 # SECTION 0
 min_lat = 37.5
@@ -21,7 +23,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -48,7 +51,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -75,7 +79,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -97,13 +102,13 @@ for i in range(222):
 
     formatted_location = f'{lat_range},{long_range}'
 
-
     default_dict = {
         'size': '640x640',
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -130,7 +135,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -157,7 +163,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -184,7 +191,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -211,7 +219,8 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': ''
+        'source': 'outdoor',
+        'key': API_KEY
     }
 
     params.append(default_dict)
@@ -220,10 +229,6 @@ results = google_streetview.api.results(params)
 results.download_links('SECTION7')
 
 
-
-
-import os
-from os import path
 for i in range(8):
     folder_num = str(i)
     folder_name = f'SECTION{folder_num}'
@@ -231,4 +236,4 @@ for i in range(8):
         file_num = str(j)
         file_name = f'{folder_name}/gsv_{file_num}.jpg'
         if path.exists(file_name):
-            os.rename(file_name,f'{folder_name}/{file_num}.jpg')
+            os.rename(file_name, f'{folder_name}/{file_num}.jpg')
