@@ -21,7 +21,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -48,7 +48,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -75,7 +75,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -103,7 +103,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -130,7 +130,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -157,7 +157,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -184,7 +184,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
@@ -211,7 +211,7 @@ for i in range(222):
         'location': formatted_location,
         'pitch': '0',
         'radius': '15000',
-        'key': 'AIzaSyDvHDRErOQo0xqSY_SEduGwYJEL3x-nB-Y'
+        'key': ''
     }
 
     params.append(default_dict)
