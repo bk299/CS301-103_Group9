@@ -12,4 +12,4 @@
 <br>
 
 # Neural Network
-<script src="https://gist.github.com/kevnramos/f29a369323830dcbe808b0d575b01806.js"></script>
+<iframe src="https://gist.github.com/kevnramos/f29a369323830dcbe808b0d575b01806.js"></iframe>
