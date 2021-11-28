@@ -13,4 +13,4 @@
 
 # Neural Network
 
-![Notebook](convnet_for_geoguessr.ipynb)
+[Notebook](convnet_for_geoguessr.ipynb)
