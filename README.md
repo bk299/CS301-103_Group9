@@ -18,4 +18,4 @@
 
 # Project Report
 
-[Link to paper](https://docs.google.com/document/d/1YQjNMpohXPR2y40Z004qskPwlxLWgjGL)
+[Link to paper](Image Classification for GeoGuessr Application.docx.pdf)
