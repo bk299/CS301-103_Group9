@@ -11,11 +11,11 @@
 <br>
 <br>
 
-# Neural Network
+## Neural Network
 
 [Notebook](convnet_for_geoguessr.ipynb)
 
 
-# Project Report
+## Project Report
 
 [Link to paper](Report.pdf)
