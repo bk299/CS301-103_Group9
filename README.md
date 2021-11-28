@@ -12,4 +12,5 @@
 <br>
 
 # Neural Network
-<iframe src="https://gist.github.com/kevnramos/f29a369323830dcbe808b0d575b01806.js"></iframe>
+
+![Notebook](convnet_for_geoguessr.ipynb)
