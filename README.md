@@ -19,3 +19,6 @@
 ## Project Report
 
 [Link to paper](Report.pdf)
+
+## Project Video
+[Link to Video](https://www.youtube.com/embed/hpi7-01lhYE)
